@@ -82,7 +82,7 @@ function esVocal(letra) {
    letra = letra.toLowerCase();
 
    // Verificar si es una vocal
-   if (letra === '' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
       return "Es vocal";
    } else {
       return "Dato incorrecto";
